@@ -17,12 +17,12 @@ At the end of this video course, we will be able to build a complete single page
 <H2>What You Will Learn</H2>
 <DIV class=book-info-will-learn-text>
 <UL>
-<LI>•	Build a Single page application with ASP.NET Core and Angular 5
-<LI>•	Learn how Dotnet CLI works
-<LI>•	Understand ASP.NET Core and its structure
-<LI>•	Understand Entity Framework Core 
-<LI>•	Learn how database migration works 
-<LI>•	Learn about Angular modules, components, services, routing etc. </LI></UL></DIV>
+<LI>Build a Single page application with ASP.NET Core and Angular 5
+<LI>Learn how Dotnet CLI works
+<LI>Understand ASP.NET Core and its structure
+<LI>Understand Entity Framework Core 
+<LI>Learn how database migration works 
+<LI>Learn about Angular modules, components, services, routing etc. </LI></UL></DIV>
 
 ## Instructions and Navigation
 ### Assumed Knowledge
@@ -31,9 +31,13 @@ ASP.NET Core 2.0 and Angular 5 into their development stack and extend their ski
 ### Technical Requirements
 This course has the following software requirements:<br/>
 •	Visual Studio Code - 1.21.1
+
 •	Node - 7.9.0
+
 •	NPM - 3.10.10
+
 •	Postman - 6.0.9
+
 •	Dotnet CLI - 2.1.4
 
 
