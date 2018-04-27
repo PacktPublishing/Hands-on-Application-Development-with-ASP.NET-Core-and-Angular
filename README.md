@@ -1,6 +1,5 @@
 # Hands-on-Application-Development-with-ASP.NET-Core-and-Angular
 Hands-on-Application-Development-with-ASP.NET-Core-and-Angular Published by Packt
-# Hands-on Application Development with ASP.NET Core and Angular [Video]
 This is the code repository for [Hands-on Application Development with ASP.NET Core and Angular [Video]](https://www.packtpub.com/web-development/hands-application-development-aspnet-core-and-angular-video?utm_source=github&utm_medium=repository&utm_campaign=9781788290449), published by [Packt](https://www.packtpub.com/?utm_source=github). It contains all the supporting project files necessary to work through the video course from start to finish.
 ## About the Video Course
 Gone are the frameworks with the monolithic approach. Latest frameworks tend to be more modular. ASP.NET Core is a rewrite of ASP.NET and more advanced like Angular. This Video course is a guide for developers who have heard and became curious about the increasing popularity of Angular and ASP.NET Core but do not know how to start.
