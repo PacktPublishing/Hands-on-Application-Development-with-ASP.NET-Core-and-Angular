@@ -1,0 +1,25 @@
+<br /><br />
+<h1>Past Orders</h1>
+<table class="table table-bordered">
+    <tr>
+        <th>Date</th>
+        <th>Product - Quantity</th>
+        <th>Total Price</th>
+    </tr>
+    <tr *ngFor="let o of orders">
+        <td>{{o.time}}</td>
+        <td>
+            <table class="table">
+                <tr>
+                    <th>Product</th>
+                    <th>Quantity</th>
+                </tr>
+                <tr *ngFor="let p of o.orderItems">
+                    <td>{{p.product.name}}</td>
+                    <td>{{p.quantity}}</td>
+                </tr>
+            </table>
+        </td>
+        <td>{{o.totalPrice}}</td>
+    </tr>
+</table>

@@ -1,0 +1,48 @@
+<br />
+<br />
+<div class="row">
+    <div class="col-md-4">
+        <div class="panel panel-default">
+            <div class="panel-body">
+                <h1>Take Order</h1>
+                <hr />
+                <form [formGroup]="orderForm">
+                    <div class="form-group">
+                        <label for="product">Product</label>
+                        <select id="product" class="form-control" formControlName="product">
+                            <option value="0"></option>
+                            <option *ngFor="let p of products" value="{{p.productId}}">{{p.name}}</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="quantity">Quantity</label>
+                        <input class="form-control" id="quantity" type="number" formControlName="quantity" />
+                    </div>
+                    <div class="form-group">
+                        <button class="btn btn-primary" (click)="add()">Add</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-8">
+        <div class="panel panel-default">
+            <div class="panel-body" style="background-color: lightgray">
+                <h3>Ordered Items</h3>
+                <table class="table">
+                    <tr>
+                        <th>Product</th>
+                        <th>Quantity</th>
+                    </tr>
+                    <tr *ngFor="let m of addedProducts">
+                        <td>{{m.name}}</td>
+                        <td>{{m.quantity}}</td>
+                    </tr>
+                </table>
+                <div class="form-group">
+                    <button class="btn btn-primary" (click)="save()">Save</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
